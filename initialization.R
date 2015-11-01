@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 #Setting directory
-=======
->>>>>>> fa807a15928ebdd53a3feb9f8b4f80196a0ea7eb
+
 working_directory<-getwd()
 setwd(working_directory)
 
