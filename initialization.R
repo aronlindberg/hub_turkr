@@ -1,5 +1,5 @@
 
-#Setting directory
+#Set working directory
 
 working_directory<-getwd()
 setwd(working_directory)
