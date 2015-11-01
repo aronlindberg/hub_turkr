@@ -1,5 +1,5 @@
 #Get Assignment Results.
-
+ 
 # getting assignments detail of First HIT
 review = GetAssignments(hit=template_Value_HITID[1], return.all=T);
 
