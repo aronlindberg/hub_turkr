@@ -1,4 +1,3 @@
-
 #Setting Qualification Type for the workers.
 
 qualReqs = paste(
