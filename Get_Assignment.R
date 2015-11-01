@@ -1,9 +1,5 @@
 #Get Assignment Results.
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> fa807a15928ebdd53a3feb9f8b4f80196a0ea7eb
 # getting assignments detail of First HIT
 review = GetAssignments(hit=template_Value_HITID[1], return.all=T);
 
