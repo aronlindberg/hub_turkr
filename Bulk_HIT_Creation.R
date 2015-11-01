@@ -1,8 +1,5 @@
 #BulkCreateFromTemplate. template is html file in directory
-<<<<<<< HEAD
 
-=======
->>>>>>> fa807a15928ebdd53a3feb9f8b4f80196a0ea7eb
 #Parameters used are: 
 #hitlayoutid sepcifying the layout id number of the project created in sandbox.
 #annotation is the name of the HIT not seen by worker
