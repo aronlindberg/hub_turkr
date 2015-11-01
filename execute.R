@@ -1,6 +1,6 @@
-
+#main file consisiting of all the file to execute
 #remove all the variable from the environment.
-#rm(list =ls()) 
+rm(list =ls()) 
 
 script_list <- list("initialization.R","credential.R","qualification.R",
                     "Bulk_HIT_Creation.R","HIT_Status.R","Get_Assignment.R")
