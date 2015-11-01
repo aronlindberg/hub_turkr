@@ -1,5 +1,9 @@
 #Status of HIT.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> fa807a15928ebdd53a3feb9f8b4f80196a0ea7eb
 # getting Status detail of First HIT
 HIT_Status<-HITStatus(hit=template_Value_HITID[1]);
 
