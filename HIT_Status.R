@@ -1,6 +1,5 @@
 #Status of HIT.
 
-
 # getting Status detail of First HIT
 HIT_Status<-HITStatus(hit=template_Value_HITID[1]);
 
