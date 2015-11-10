@@ -1,6 +1,9 @@
 
-#main file consisiting of all the file to execute
-#remove all the variable from the environment.
+# main file consisiting of all the file to execute
+# remove all the variable from the environment
+# Note that for this to work your working directory has to be stored in `working_directory.R`, 
+# credentials from AWS in `credential.R`
+
 rm(list =ls()) 
 
 script_list <- list("working_directory.R", "initialization.R", "credential.R", 
