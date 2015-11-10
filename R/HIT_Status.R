@@ -1,6 +1,6 @@
 #Status of HIT.
 
-ouput_directory <- paste(relative_path, "output/", sep = "")
+ouput_directory <- paste(relative_path, "data/", sep = "")
 
 HIT_File <- paste(ouput_directory, "HIT-status.csv", sep = "")
 # getting Status detail of First HIT
