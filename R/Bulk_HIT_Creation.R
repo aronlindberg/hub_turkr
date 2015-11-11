@@ -1,5 +1,11 @@
 #BulkCreateFromTemplate. template is html file in directory
 
+data_directory <- paste(relative_path, "data/", sep = "")
+
+input_File <- paste(data_directory, "input.csv", sep = "")
+
+template_File <- paste(data_directory, "template.html", sep = "")
+
 #Parameters used are: 
 #hitlayoutid sepcifying the layout id number of the project created in sandbox.
 #annotation is the name of the HIT not seen by worker
@@ -14,8 +20,8 @@
 #qual.req is qualification for taking the HIT
 
 
-variable_bulkTemplate <- read_file<- read.csv("input.csv", header = T);
-template_Value<-BulkCreateFromTemplate(template = "template.html",
+variable_bulkTemplate <- read_file<- read.csv(input_File, header = T);
+template_Value<-BulkCreateFromTemplate(template = template_File,
                                        input = variable_bulkTemplate,
                                        annotation = paste("Bulk From Template", Sys.Date()),
                                        title = paste("Categorize an image", Sys.Date()),
@@ -28,6 +34,6 @@ template_Value<-BulkCreateFromTemplate(template = "template.html",
                                        qual.req=qualReqs)
 
 #HITID of Bulk Template
-template_Value_HITID<- (rbindlist(template_Value)$HITId)
+HITID_value <- (rbindlist(template_Value)$HITId)
 #HITTypeID of Bulk Template
-template_Value_HITTypeID<- (rbindlist(template_Value)$HITTypeId)
+HITTypeID_value <- (rbindlist(template_Value)$HITTypeId)
