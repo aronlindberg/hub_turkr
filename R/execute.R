@@ -1,9 +1,15 @@
 
 # main file consisiting of all the file to execute
 # remove all the variable from the environment
+
 # Note that for this to work your working directory has to be stored in `working_directory.R` in the following format:
-# setwd("~/User/git/hub_turkr"), 
+# relative_path <- "~/Users/git/hub_turkr/"
+# working_directory <- paste(relative_path, "R/", sep = "")
+# setwd(working_directory)
+
 # credentials from AWS in `credential.R`
+#keep the rootkey file extracted from Amazon Web service in R folder. 
+
 
 rm(list =ls()) 
 
