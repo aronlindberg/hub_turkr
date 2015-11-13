@@ -13,8 +13,12 @@ if (file.exists("rootkey.csv")) {
   print("File consisting of credentials does not exist")
 }
 
+#converting the values fetched from dataframe into vetor form  
+AWSAccessKeyId <- as.vector(key_pair$V2[1])
+AWSSecretKey <- as.vector(key_pair$V2[2])
+
 #initializing credentials
-credentials( keypair=c(key_pair$V2[1], key_pair$V2[2]))
+credentials( keypair=c(AWSAccessKeyId, AWSSecretKey))
 
 #checking the balance for the account
 while (AccountBalance() == 0){

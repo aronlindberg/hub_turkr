@@ -1,0 +1,25 @@
+Sample Qualification Question
+
+•	Use a Yes/No drop down box to receive an answer from a participant that will either be a “Yes” or “No”.
+•	Short text input fields allow entries containing up to 50 characters.
+•	Select a long text input type for answers containing up to 150 characters.
+•	Huge text input provides a text area to enter up to 2000 characters.
+•	Integer input fields accepts integer values.
+•	Collect monetary values by using the currency input field.
+•	Decimal input allows for decimal values to be entered as answers.
+•	Use the date question type for date responses.
+•	The single choice drop down type allows a selection to be made from an available list of options.
+•	Choose multiple options from a list with multiple choice check boxes.
+•	The dataset type populates a list with options by importing a collection of data, such as a file containing the list of the months in a year.
+•	Single choice radio buttons displays a group of options where a single selection can be made.
+•	What is GIT?
+•	What is a repository in GIT?
+•	  What is the function of ‘GIT PUSH’ in GIT?
+•	What is the function of ‘GIT PULL’ in GIT?  
+•	What is the function of ‘GIT Fork’ in GIT?  
+•	What is the function of git clone?
+•	What does commit object contain?
+•	How can you create a repository in Git?
+•	 What is a ‘conflict’ in git?
+•	 What is the purpose of branching in GIT?
+
