@@ -1,3 +1,5 @@
+Sample Qualification Question
+
 •	Use a Yes/No drop down box to receive an answer from a participant that will either be a “Yes” or “No”.
 •	Short text input fields allow entries containing up to 50 characters.
 •	Select a long text input type for answers containing up to 150 characters.
