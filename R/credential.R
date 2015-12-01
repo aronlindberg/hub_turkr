@@ -21,6 +21,15 @@ AWSSecretKey <- as.vector(key_pair$V2[2])
 credentials( keypair=c(AWSAccessKeyId, AWSSecretKey))
 
 #checking the balance for the account
-while (AccountBalance() == 0){
+balance <- AccountBalance()
+
+# taking the balance value from muliplt list of value fetched
+account_balance <- as.numeric(balance$balance)
+
+#checking the balance for the account
+while (account_balance <= 0){
   print("Check out your key file or Recharge your Account")
 }
+
+
+
