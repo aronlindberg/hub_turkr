@@ -2,8 +2,9 @@
 # main file consisiting of all the file to execute
 # remove all the variable from the environment
 
-# Note that for this to work your working directory has to be stored in `working_directory.R` in the following format:
-# relative_path <- "~/Users/git/hub_turkr/"
+# Note that for this to work your working directory has to be stored in `working_directory.R` in the  format below. 
+# Remember to include `working_directory.R` in your .gitignore file
+# relative_path <- "~/Users/your_name/git/hub_turkr/"
 # working_directory <- paste(relative_path, "R/", sep = "")
 # setwd(working_directory)
 
