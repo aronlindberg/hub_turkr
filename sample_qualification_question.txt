@@ -8,7 +8,7 @@ Pre-Qualification Question
 	- a collection of files
 	- a social network
 	- a set of server resources
-3. What is the function of ‘git push’?
+3. What is the function of git push?
 	- pushing a code to a repository
 	- encouraging contacts to do work
 	- a friend request
