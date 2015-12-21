@@ -31,7 +31,7 @@ template_Value<-BulkCreateFromTemplate(template = template_File,
                                        duration = seconds(minutes = 5),
                                        auto.approval.delay = seconds(days = 1),
                                        keywords = "categorization, image, moderation, category",
-                                       qual.req=qualReqs)
+                                       qual.req=score_moder)
 
 #HITID of Bulk Template
 HITID_value <- (rbindlist(template_Value)$HITId)
