@@ -24,14 +24,14 @@ variable_bulkTemplate <- read_file<- read.csv(input_File, header = T);
 template_Value<-BulkCreateFromTemplate(template = template_File,
                                        input = variable_bulkTemplate,
                                        annotation = paste("Bulk From Template", Sys.Date()),
-                                       title = paste("Categorize an image", Sys.Date()),
-                                       description = "Categorize this image",
+                                       title = paste("Categorize comments", Sys.Date(), Sys.time()),
+                                       description = "Categorize comments",
                                        reward = ".05",
                                        expiration = seconds(days = 4),
                                        duration = seconds(minutes = 5),
                                        auto.approval.delay = seconds(days = 1),
                                        keywords = "categorization, image, moderation, category",
-                                       qual.req=qualReqs)
+                                       qual.req=score_moder)
 
 #HITID of Bulk Template
 HITID_value <- (rbindlist(template_Value)$HITId)
