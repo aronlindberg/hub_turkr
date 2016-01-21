@@ -1,8 +1,5 @@
 # autheniticating the USER 
 
-library(httpuv)
-library(httr)
-
 oauth_endpoints("github")
 myapp <- oauth_app("github",
                    key = ClientId,
