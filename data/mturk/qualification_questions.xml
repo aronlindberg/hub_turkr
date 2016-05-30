@@ -16,15 +16,15 @@
         <Selections>
           <Selection>
             <SelectionIdentifier>1</SelectionIdentifier>
-            <Text>a version control system</Text>
+            <Text>A version control system.</Text>
           </Selection>
           <Selection>
             <SelectionIdentifier>2</SelectionIdentifier>
-            <Text>a programming language</Text>
+            <Text>A programming language.</Text>
           </Selection>
 	  <Selection>
             <SelectionIdentifier>3</SelectionIdentifier>
-            <Text>a backup service</Text>
+            <Text>A backup service.</Text>
           </Selection>
         </Selections>
       </SelectionAnswer>
@@ -42,15 +42,15 @@
         <Selections>
           <Selection>
             <SelectionIdentifier>1</SelectionIdentifier>
-            <Text>a collection of files</Text>
+            <Text>A collection of files.</Text>
           </Selection>
           <Selection>
             <SelectionIdentifier>2</SelectionIdentifier>
-            <Text>a social network</Text>
+            <Text>A social network.</Text>
           </Selection>
           <Selection>
             <SelectionIdentifier>3</SelectionIdentifier>
-            <Text>a set of server resources</Text>
+            <Text>A set of server resources.</Text>
           </Selection>
         </Selections>
       </SelectionAnswer>
@@ -68,15 +68,15 @@
         <Selections>
           <Selection>
             <SelectionIdentifier>1</SelectionIdentifier>
-            <Text>pushing a code to a repository</Text>
+            <Text>Pushing code to a repository.</Text>
           </Selection>
           <Selection>
             <SelectionIdentifier>2</SelectionIdentifier>
-            <Text>encouraging contacts to do work</Text>
+            <Text>Encouraging contacts to do work.</Text>
           </Selection>
           <Selection>
             <SelectionIdentifier>3</SelectionIdentifier>
-            <Text>a friend request</Text>
+            <Text>A friend request.</Text>
           </Selection>
         </Selections>
       </SelectionAnswer>
@@ -94,15 +94,15 @@
         <Selections>
           <Selection>
             <SelectionIdentifier>1</SelectionIdentifier>
-            <Text>Submitting code for consideration</Text>
+            <Text>Submitting code for consideration.</Text>
           </Selection>
           <Selection>
             <SelectionIdentifier>2</SelectionIdentifier>
-            <Text>A friend request</Text>
+            <Text>A friend request.</Text>
           </Selection>
           <Selection>
             <SelectionIdentifier>3</SelectionIdentifier>
-            <Text>A request to access a file</Text>
+            <Text>A request to access a file.</Text>
           </Selection>
         </Selections>
       </SelectionAnswer>
@@ -120,15 +120,15 @@
         <Selections>
           <Selection>
             <SelectionIdentifier>1</SelectionIdentifier>
-            <Text>An alternative development copy</Text>
+            <Text>An alternative development copy.</Text>
           </Selection>
           <Selection>
             <SelectionIdentifier>2</SelectionIdentifier>
-            <Text>A difference of opinion</Text>
+            <Text>A difference of opinion.</Text>
           </Selection>
 	  <Selection>
             <SelectionIdentifier>3</SelectionIdentifier>
-            <Text>A choice in a decision tree</Text>
+            <Text>A choice in a decision tree.</Text>
           </Selection>
         </Selections>
       </SelectionAnswer>
@@ -146,15 +146,15 @@
         <Selections>
           <Selection>
             <SelectionIdentifier>1</SelectionIdentifier>
-            <Text>Code</Text>
+            <Text>Code.</Text>
           </Selection>
           <Selection>
             <SelectionIdentifier>2</SelectionIdentifier>
-            <Text>Text</Text>
+            <Text>Text.</Text>
           </Selection>
 	  <Selection>
             <SelectionIdentifier>3</SelectionIdentifier>
-            <Text>Email</Text>
+            <Text>Email.</Text>
           </Selection>
         </Selections>
       </SelectionAnswer>

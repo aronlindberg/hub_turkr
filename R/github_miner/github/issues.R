@@ -41,8 +41,25 @@ get.organization.issues <- function(org, ..., ctx = get.github.context())
 #' @param ctx the github context object
 #'
 #' @return the list of issues
-get.repository.issues <- function(owner, repo,issue.number, ..., ctx = get.github.context())
-  .api.get.request(ctx, c("repos", owner, repo, "issues",issue.number), params=list(...))
+get.repository.issues <- function(owner, repo, ..., ctx = get.github.context())
+  .api.get.request(ctx, c("repos", owner, repo, "issues"), params=list(...))
+
+#' Get an issue for a repo
+#'
+#' @param owner the repo owner
+#'
+#' @param repo the repo name
+#' 
+#' @param number the issue number
+#'
+#' @param ... extra parameters. See http://developer.github.com/v3/issues/ for details
+#'
+#' @param ctx the github context object
+#'
+#' @return the requested issue
+get.repository.issue <- function(owner, repo, number, ..., ctx = get.github.context())
+  .api.get.request(ctx, c("repos", owner, repo, "issues", number), params=list(...))
+
 #' Number of issues
 #' 
 #' @param owner the repo owner
@@ -132,7 +149,7 @@ is.assignee <- function(owner, repo, assignee, ctx = get.github.context())
 #'
 #' @return the list of comments
 get.issue.comments <- function(owner, repo, number, ..., ctx = get.github.context())
-  .api.get.request(ctx, c("repos", owner, repo, "issues", number, "comments",params=list(...)))
+  .api.get.request(ctx, c("repos", owner, repo, "issues", number, "comments"), params=list(...))
 
 #' Get list of comments for an issue
 #'
@@ -145,8 +162,8 @@ get.issue.comments <- function(owner, repo, number, ..., ctx = get.github.contex
 #' @param ctx the github context object
 #'
 #' @return the list of comments
-get.all.repository.issues.comments <- function(owner, repo,issue.number, ..., ctx = get.github.context())
-  .api.get.request(ctx, c("repos", owner, repo, "issues",issue.number, "comments"), params=list(...))
+get.all.repository.issues.comments <- function(owner, repo, ..., ctx = get.github.context())
+  .api.get.request(ctx, c("repos", owner, repo, "issues", "comments"), params=list(...))
 
 #' Get specific comment
 #'
