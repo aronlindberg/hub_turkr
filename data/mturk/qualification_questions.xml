@@ -1,0 +1,163 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <Title>Qualification Test</Title>
+    <Text>After taking this qualification test, you may be redirected away from our HIT. If this occurs, please search "research survey about social issues" to take our survey. Please note that if you have taken some of our surveys before, you may be blocked from this HIT as we use some of the same questions. This will not prevent you from accepting unrelated HITs from us in the future.
+    </Text>
+  </Overview>
+  <Question>
+    <QuestionIdentifier>question1</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What is git?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>A version control system.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>A programming language.</Text>
+          </Selection>
+	  <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>A backup service.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>question2</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What is a git repository?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>A collection of files.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>A social network.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>A set of server resources.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>question3</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What is the function of git push?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Pushing code to a repository.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Encouraging contacts to do work.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>A friend request.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>question4</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What is the function of a pull request?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Submitting code for consideration.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>A friend request.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>A request to access a file.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>question5</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What is the function of a fork in git?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>An alternative development copy.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>A difference of opinion.</Text>
+          </Selection>
+	  <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>A choice in a decision tree.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+  <Question>
+    <QuestionIdentifier>question6</QuestionIdentifier>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>What does a commit contain?</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <SelectionAnswer>
+        <StyleSuggestion>radiobutton</StyleSuggestion>
+        <Selections>
+          <Selection>
+            <SelectionIdentifier>1</SelectionIdentifier>
+            <Text>Code.</Text>
+          </Selection>
+          <Selection>
+            <SelectionIdentifier>2</SelectionIdentifier>
+            <Text>Text.</Text>
+          </Selection>
+	  <Selection>
+            <SelectionIdentifier>3</SelectionIdentifier>
+            <Text>Email.</Text>
+          </Selection>
+        </Selections>
+      </SelectionAnswer>
+    </AnswerSpecification>
+  </Question>
+</QuestionForm>

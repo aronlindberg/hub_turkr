@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <script type='text/javascript' src='https://s3.amazonaws.com/mturk-public/externalHIT_v1.js'></script>
+  <link href="https://s3.amazonaws.com/mturk-public/bs30/css/bootstrap.min.css" rel="stylesheet" />
+ </head>
+ <body>
+  <form name='mturk_form' method='post' id='mturk_form' action='https://www.mturk.com/mturk/externalSubmit'>
+   <input type='hidden' value='' name='assignmentId' id='assignmentId' />
+   <fieldset>
+    <p>Issue #${ID}</p>
+    <p>Link to the comment: ${WEBLINK}</p>
+    <p>Select all codes that apply to the comment, based on <a href="https://link.to/the/nomenclature/file.pdf">this nomenclature</a></p>
+    <p>Contents of the comment:</p>
+    <p>${COMMENT}</p>
+    <div class="checkbox">
+     <p><input name="Answer" type="checkbox" value="VOT" />VOT</p>
+     <p><input name="Answer" type="checkbox" value="REF" />REF</p>
+     <p><input name="Answer" type="checkbox" value="DED" />DED</p>
+     <p><input name="Answer" type="checkbox" value="DNN" />DNN</p>
+     <p><input name="Answer" type="checkbox" value="RAS" />RAS</p>
+     <p><input name="Answer" type="checkbox" value="EFT" />EFT</p>
+     <p><input name="Answer" type="checkbox" value="MCD" />MCD</p>
+     <p><input name="Answer" type="checkbox" value="CDO" />CDO</p>
+     <p><input name="Answer" type="checkbox" value="IWO" />IWO</p>
+     <p><input name="Answer" type="checkbox" value="CTH" />CTH</p>
+     <p><input name="Answer" type="checkbox" value="DPC" />DPC</p>
+     <p><input name="Answer" type="checkbox" value="CVP" />CVP</p>
+     <p><input name="Answer" type="checkbox" value="SWC" />SWC</p>
+     <p><input name="Answer" type="checkbox" value="REC" />REC</p>
+    </div>
+   </fieldset>
+   <p><input type='submit' id='submitButton' value='Submit' /></p>
+  </form>
+  <script language='Javascript'>turkSetAssignmentID();</script>
+ </body>
+</html>
